@@ -1,0 +1,18 @@
+set distritos := D1 D2 D3 D4 D5;
+set parkings := L1 L2 L3 L4 L5 L6;
+
+param Y:  L1    L2    L3   L4   L5   L6 :=
+    D1     20    15    34     12    20    55
+    D2     30    18    20     15    18    35
+    D3     50    30    14     40    20    20
+    D4     15    12    30     10    17    30
+    D5     32    15    18     20    10    30;
+
+param llamadas:= 
+    D1 5000
+    D2 6500
+    D3 5400
+    D4 7500
+    D5 5500;
+   
+end;
